@@ -19,7 +19,7 @@ The output should be:
 
 Related links:
 
-http://thechangelog.com/install-node-js-with-homebrew-on-os-x/
+Install node [http://thechangelog.com/install-node-js-with-homebrew-on-os-x/]
 http://nodejs.org/
 http://gruntjs.com/
 http://jasmine.github.io/
