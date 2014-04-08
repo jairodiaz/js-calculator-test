@@ -4,20 +4,19 @@ module.exports = function(config) {
     frameworks: ['jasmine'],
 
     files: [
-      'lib/jquery-1.11.0/jquery.js',
-      'lib/jasmine-jquery-2.1.0/jasmine-jquery.js',
+      'lib/bower_components/jquery/dist/jquery.js',
+      'lib/bower_components/jasmine-jquery/lib/jasmine-jquery.js',
 
       'src/moj_init.js',
       'src/rsr-calc.js',
 
-      'test/SpecHelper.js',
       'test/RsrCalcSpec.js',
 
-            // fixtures
+      // fixtures
       { pattern: 'data/*.json',
-          watched: true,
-          served:  true,
-          included: false
+        watched: true,
+        served:  true,
+        included: false
       }
     ],
 
